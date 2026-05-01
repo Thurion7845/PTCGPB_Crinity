@@ -42,8 +42,8 @@ OnError("ErrorHandler")
 
 githubUser := "kevnITG"
    ,repoName := "PTCGPB"
-   ,localVersion := "v9.6.3"
-   ,modVersion := "v5.5"
+   ,localVersion := "v9.6.4"
+   ,modVersion := "v5.6"
    ,scriptFolder := A_ScriptDir
    ,zipPath := A_Temp . "\update.zip"
    ,extractPath := A_Temp . "\update"
@@ -312,7 +312,7 @@ NextStep:
     Gui, Font, s12 cWhite Bold
     Gui, Add, Text, x621 y20 w155 h50 Left BackgroundTrans cWhite, % dict["title_main"]
     Gui, Font, s10 cWhite Bold
-    Gui, Add, Text, x621 y20 w155 h150 Left BackgroundTrans cWhite, % "`n" "`n(for Scale 100%)`n`nModder: Crinity " modVersion 
+    Gui, Add, Text, x621 y20 w155 h150 Left BackgroundTrans cWhite, % "`n" localVersion "`n(for Scale 100%)`n`nModder: Crinity " modVersion 
 
     Gui, Add, Picture, gBuyMeCoffee x625 y130 w150, %A_ScriptDir%\GUI\Images\support_me_on_kofi.png
 
